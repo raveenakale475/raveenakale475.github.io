@@ -6,13 +6,10 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="h-screen w-full bg-gradient-to-b from-white via-white to-white  font-Big"
-    >
+    <div name="home" className="h-screen w-full font-Big">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full w-full px-4 md:flex-row ">
         <div className="flex flex-col justify-center h-full  w-3/6">
-          <h2 className="sm:text-7xl font-bold text-black md:mt-5 font-Big">
+          <h2 className="sm:text-5xl font-bold text-black md:mt-5 font-Big sm:mt-96 lg:text-7xl">
             I am <span>Raveena Kale</span>
           </h2>
           <p className="text-black py-4 max-w-md">
@@ -33,7 +30,7 @@ const Home = () => {
 
           <div>
             <Link
-              to="portfolio"
+              to="Project"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-700 to-cyan-500 cursor-pointer"
@@ -49,7 +46,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto md:w-full md:mt-10 ml-10"
+            className="rounded-2xl mx-auto md:w-full md:mt-10 ml-10 sm:mt-20 "
           />
         </div>
       </div>

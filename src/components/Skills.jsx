@@ -92,17 +92,19 @@ const Skills = () => {
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b from-white to-white h-screen"
+      className="bg-gradient-to-b from-white to-white h-screen sm:mt-96 md:-mt-1 lg:-mt-4"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black mt-20">
         <div>
           <p className="text-4xl font-bold border-b-4 border-[#937DC2] p-2 inline font-Big">
             Skills
           </p>
-          <p className="py-6 font-small">These are the technologies I've worked with</p>
+          <p className="py-6 font-small">
+            These are the technologies I have worked with
+          </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
