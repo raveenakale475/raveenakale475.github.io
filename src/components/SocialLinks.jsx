@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiPhoneCall } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -35,6 +36,15 @@ const SocialLinks = () => {
     },
     {
       id: 4,
+      child: (
+        <>
+          Phone <FiPhoneCall size={30} />
+        </>
+      ),
+      href: `tel:${1234567890}`,
+    },
+    {
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
