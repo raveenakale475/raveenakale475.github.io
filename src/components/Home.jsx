@@ -1,20 +1,19 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full font-Big">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full w-full px-4 md:flex-row ">
-        <div className="flex flex-col justify-center h-full  w-3/6">
-          <h2 className="sm:text-5xl font-bold text-black md:mt-5 font-Big sm:mt-96 lg:text-7xl">
-            I am <span>Raveena Kale</span>
+    <div name="Home" className="sm:h-screen w-full pt-24">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        <div className="flex flex-col justify-center h-full w-full">
+          <h2 className="text-5xl sm:text-5xl font-bold tracking-wide">
+          I am Raveena <span style={{ color: "#937DC2" }}>Kale</span>
           </h2>
-          <p className="text-black py-4 max-w-md">
-            <span className="text-5xl font-Big"> I am a</span>
-            <span className="text-red-600 text-4xl font-Big">
+          <p className="py-4 max-w-md tracking-wide text-lg ">
+          <span className="text-5xl font-Big"> I am a</span>
+            <span className="text-red-600 text-3xl font-Big">
               <Typewriter
                 options={{
                   strings: [
@@ -25,15 +24,14 @@ const Home = () => {
                   loop: true,
                 }}
               />
-            </span>
+            </span> Analytical and detail-oriented aspiring Full Stack web Developer. Worked through 1200+ hours of Bootcamp structure.
           </p>
-
           <div>
             <Link
               to="Project"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-700 to-cyan-500 cursor-pointer"
+              className="group text-white  w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-cyan-500 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
@@ -42,11 +40,14 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="w-2/6">
+
+        <div className="mb-10 sm:mb-0 w-4/6">
           <img
-            src={HeroImage}
-            alt="my profile"
-            className="rounded-2xl mx-auto md:w-full md:mt-10 ml-10 sm:mt-20 "
+            src={
+              "https://media-exp1.licdn.com/dms/image/D4D03AQFylbCZmCtB3Q/profile-displayphoto-shrink_400_400/0/1667745222574?e=1675900800&v=beta&t=eW5ES4H3O2ilLVyBTFjTl1ZpfrJO1DH3IQ7bKM6Vgr8"
+            }
+            alt="my-profile"
+            className="rounded-2xl mx-auto "
           />
         </div>
       </div>

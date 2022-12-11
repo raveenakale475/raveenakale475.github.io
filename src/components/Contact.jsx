@@ -2,43 +2,45 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div name="Contact" className="w-full h-screen p-4 text-black">
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+    <div name="Contact" className="w-full p-4">
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto mb-52">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#937DC2] font-Big">
+          <p className="text-4xl font-bold inline border-b-4 border-[#937DC2] ml-5">
             Contact
           </p>
-          <p className="py-6 font-Small text-lg">
-            Submit the form below to get in touch with me
-          </p>
+          <p className="py-6 ml-5 text-lg">Submit the form below to get in touch with me.</p>
         </div>
-
-        <div className=" flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <form
-            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
+            action="https://getform.io/f/38be7642-d67e-4c78-be46-495df93bf82a"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2 font-small"
+            className="flex flex-col w-full md:w-1/2"
           >
             <input
               type="text"
               name="name"
-              placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
+              placeholder="Enter Your Name Please"
+              className="p-2 bg-transparent  rounded-md focus:outline-none border-2 border-[#937DC2]"
             />
             <input
               type="text"
               name="email"
-              placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
+              placeholder="Enter Your E-mail Please"
+              className="p-2 bg-transparent  rounded-md focus:outline-none my-4 border-2 border-[#937DC2]"
+            />
+            <input
+              type="number"
+              name="number"
+              placeholder="Enter Your PhoneNumber Please"
+              className="p-2 bg-transparent  rounded-md focus:outline-none my-3 border-2 border-[#937DC2]"
             />
             <textarea
-              name="message"
-              placeholder="Enter your message"
+              name="massage"
+              placeholder="Enter Your Massage"
               rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
+              className="p-2 bg-transparent rounded-md focus:outline-none border-2 border-[#937DC2]"
             ></textarea>
-
-            <button className="text-white bg-gradient-to-b  from-purple-700 to-cyan-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-white text-lg bg-gradient-to-b from-cyan-500 to-purple-500  px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
           </form>

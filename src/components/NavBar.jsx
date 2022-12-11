@@ -2,25 +2,25 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-const NavBar = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-  const links = [
+  const Links = [
     {
       id: 1,
-      link: "home",
+      link: "Home",
     },
     {
       id: 2,
-      link: "about",
+      link: "About",
     },
     {
       id: 3,
-      link: "Project",
+      link: "Skills",
     },
     {
       id: 4,
-      link: "Skills",
+      link: "Project",
     },
     {
       id: 5,
@@ -29,24 +29,33 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-[#937DC2] fixed">
+    <div className="flex justify-between items-center w-full  h-20 text-black bg-[#937DC2] fixed px-2">
       <div>
-        <h2 className="text-5xl font-Big ml-2">
-          Raveena <span className="text-white">Kale</span>
-        </h2>
+        <h1 className="text-3xl sm:ml-2 cursor-pointer"><a href="https://github.com/raveenakale475" target={"_blank"}>
+        Raveena <span className="text-white">Kale</span></a>
+        </h1>
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {Links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200 font-Big text-lg"
+            className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={600}>
               {link}
             </Link>
           </li>
         ))}
+        <li className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200">
+          <a
+            href="https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing"
+            download={true}
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
       </ul>
 
       <div
@@ -57,26 +66,29 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-black bg-[#937DC2] font-Big text-lg">
-          {links.map(({ id, link }) => (
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-[#937DC2] text-black">
+          {Links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200"
             >
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth
-                duration={500}
+                duration={600}
               >
                 {link}
               </Link>
             </li>
           ))}
+          <li className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200">
+            <a href="https://drive.google.com/file/d/1EXTQAFDi1i8VXpzl9tlAEFsJPzo2V23r/view?usp=sharing" target={"_blank"}>Resume</a>
+          </li>
         </ul>
       )}
     </div>
   );
 };
 
-export default NavBar;
+export default Navbar;
