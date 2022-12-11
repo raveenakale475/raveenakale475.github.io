@@ -83,7 +83,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200">
-            <a href="https://drive.google.com/file/d/1EXTQAFDi1i8VXpzl9tlAEFsJPzo2V23r/view?usp=sharing" target={"_blank"}>Resume</a>
+            <a href="https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing" target={"_blank"}>Resume</a>
           </li>
         </ul>
       )}
