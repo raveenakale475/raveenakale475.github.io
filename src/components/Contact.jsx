@@ -1,5 +1,5 @@
 import React from "react";
-
+import Main from "./Main";
 const Contact = () => {
   return (
     <div name="Contact" className="w-full p-4">
@@ -9,8 +9,10 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6 ml-5 text-lg">Submit the form below to get in touch with me.</p>
-        </div>
-        <div className="flex justify-center items-center">
+        </div> 
+
+        <Main />
+        <div className="flex justify-center items-center mt-5">
           <form
             action="https://getform.io/f/38be7642-d67e-4c78-be46-495df93bf82a"
             method="POST"
