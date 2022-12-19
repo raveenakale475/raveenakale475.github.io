@@ -2,7 +2,7 @@ import React from "react";
 import Lyst from "../assets/portfolio/Lyst.jpg";
 import airtable from "../assets/portfolio/airtable.png";
 import Myntra from "../assets/portfolio/Myntra.png";
-import Todo from "../assets/portfolio/Todo.png";
+import RelianceDigital from "../assets/portfolio/RelianceDigital.png";
 import { FaGithub, FaReact, FaBootstrap } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import html from "../assets/html.png";
@@ -20,7 +20,7 @@ const Project = () => {
       github: "https://github.com/raveenakale475/Airtable",
       netlify: "https://airtable-rrk.netlify.app/",
       websiteName: "Airtable Clone",
-      des: "Airtable is a website to low-code platform and for building collaborative apps..",
+      des: "Airtable is a website to low-code platform and for building collaborative apps.",
       TechStack: [html, css, javascript, Bootsrap],
     },
     {
@@ -43,11 +43,11 @@ const Project = () => {
     },
     {
       id: 4,
-      src: Todo,
-      github: "https://github.com/raveenakale475/Todo-App",
-      netlify: "https://todoapp-rrk.netlify.app/",
-      websiteName: "Todo App",
-      des: "It is an website for task management.",
+      src: RelianceDigital,
+      github: "https://github.com/RajParmar03/Reliance_digital_clone",
+      netlify: "https://delightful-twilight-10e5bd.netlify.app/",
+      websiteName: "RelianceDigital Clone",
+      des: "RelianceDigital is an E-commerce website to buy Electronics Online.",
       TechStack: [html, css, javascript, reactImage, Redux],
     },
   ];
