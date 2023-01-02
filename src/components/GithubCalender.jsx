@@ -29,7 +29,7 @@ const GitHubCalendarComponent = () => {
         <GitHubCalendar
           style={{ margin: "auto" }}
           username="raveenakale475"
-          transformData={selectLastHalfYear}
+          // transformData={selectLastHalfYear}
           blockSize={15}
           fontSize={15}
         >
