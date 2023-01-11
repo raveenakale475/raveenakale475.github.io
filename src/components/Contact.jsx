@@ -37,8 +37,8 @@ const Contact = () => {
               className="p-2 bg-transparent  rounded-md focus:outline-none my-3 border-2 border-[#937DC2]"
             />
             <textarea
-              name="massage"
-              placeholder="Enter Your Massage"
+              name="message"
+              placeholder="Enter Your Message"
               rows="10"
               className="p-2 bg-transparent rounded-md focus:outline-none border-2 border-[#937DC2]"
             ></textarea>

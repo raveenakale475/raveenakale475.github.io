@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar";
 import Project from "./components/Project";
 import SocialLinks from "./components/SocialLinks";
 import GitHubCalendarComponent from "./components/GithubCalender";
-import Main from "./components/Main";
+
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <GitHubCalendarComponent/>
       <Contact />
       <SocialLinks />
-      {/* <Main/> */}
+     
     </div>
   );
 }
