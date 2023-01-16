@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c105e02e.css",
-    "main.js": "/static/js/main.d541c675.js",
+    "main.js": "/static/js/main.be2efc32.js",
     "static/media/Myntra.png": "/static/media/Myntra.ff6e28b4379d7b6425ba.png",
+    "static/media/hotstar.png": "/static/media/hotstar.7d52de7e3539ecdcee0d.png",
     "static/media/RelianceDigital.png": "/static/media/RelianceDigital.457eaf7ba226f30703e5.png",
     "static/media/Lyst.jpg": "/static/media/Lyst.a64e51093a76225637f4.jpg",
-    "static/media/airtable.png": "/static/media/airtable.71a94764e9544e97f1de.png",
     "static/media/bootstarp.png": "/static/media/bootstarp.32c248432e2b86298964.png",
     "static/media/netlify.png": "/static/media/netlify.ff9a6cf8b6be147ca675.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -22,10 +22,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.c105e02e.css.map": "/static/css/main.c105e02e.css.map",
-    "main.d541c675.js.map": "/static/js/main.d541c675.js.map"
+    "main.be2efc32.js.map": "/static/js/main.be2efc32.js.map"
   },
   "entrypoints": [
     "static/css/main.c105e02e.css",
-    "static/js/main.d541c675.js"
+    "static/js/main.be2efc32.js"
   ]
 }
