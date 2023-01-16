@@ -1,6 +1,6 @@
 import React from "react";
 import Lyst from "../assets/portfolio/Lyst.jpg";
-import airtable from "../assets/portfolio/airtable.png";
+import Hotstar from "../assets/portfolio/hotstar.png"
 import Myntra from "../assets/portfolio/Myntra.png";
 import RelianceDigital from "../assets/portfolio/RelianceDigital.png";
 import { FaGithub, FaReact, FaBootstrap } from "react-icons/fa";
@@ -16,11 +16,11 @@ const Project = () => {
   const portfolios = [
     {
       id: 1,
-      src: airtable,
-      github: "https://github.com/raveenakale475/Airtable",
-      netlify: "https://airtable-rrk.netlify.app/",
-      websiteName: "Airtable Clone",
-      des: "Airtable is a website to low-code platform and for building collaborative apps.",
+      src: Hotstar,
+      github: "https://github.com/raveenakale475/Hotstar",
+      netlify: "https://hotstar-rrk.netlify.app/",
+      websiteName: "Hotstar Clone",
+      des: "Hotstar is a website to watch shows, movies, sports and TV channels for entertainment, & more with The Disney Bundle.",
       TechStack: [html, css, javascript, Bootsrap],
     },
     {
