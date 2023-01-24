@@ -28,11 +28,19 @@ const Navbar = () => {
     },
   ];
 
+  const downloadResume = async () => {
+    window.open(
+      "https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing"
+    );
+  };
+
   return (
     <div className="flex justify-between items-center w-full  h-20 text-black bg-[#937DC2] fixed px-2">
       <div>
-        <h1 className="text-3xl sm:ml-2 cursor-pointer"><a href="https://github.com/raveenakale475" target={"_blank"}>
-        Raveena <span className="text-white">Kale</span></a>
+        <h1 className="text-3xl sm:ml-2 cursor-pointer">
+          <a href="https://github.com/raveenakale475" target={"_blank"}>
+            Raveena <span className="text-white">Kale</span>
+          </a>
         </h1>
       </div>
 
@@ -49,9 +57,11 @@ const Navbar = () => {
         ))}
         <li className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200">
           <a
-            href="https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing"
+            href="/Raveena-Kale-Resume.pdf"
             download={true}
             target="_blank"
+            rel="noreferrer"
+            onClick={downloadResume}
           >
             Resume
           </a>
@@ -83,7 +93,12 @@ const Navbar = () => {
             </li>
           ))}
           <li className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200">
-            <a href="https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing" target={"_blank"}>Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing"
+              target={"_blank"}
+            >
+              Resume
+            </a>
           </li>
         </ul>
       )}

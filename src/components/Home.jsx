@@ -4,6 +4,11 @@ import { Button, Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
+  const downloadResume = async () => {
+    window.open(
+      "https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing"
+    );
+  };
   return (
     <div name="Home" className="sm:h-screen w-full pt-24">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
@@ -35,6 +40,7 @@ const Home = () => {
                 download={true}
                 target="_blank"
                 rel="noreferrer"
+                onClick={downloadResume}
               >
                 Resume
               </a>

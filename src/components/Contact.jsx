@@ -1,5 +1,7 @@
 import React from "react";
 import Main from "./Main";
+import Inspired from "./Inspired";
+
 const Contact = () => {
   return (
     <div name="Contact" className="w-full p-4">
@@ -8,8 +10,10 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#937DC2] ml-5">
             Contact
           </p>
-          <p className="py-6 ml-5 text-lg">Submit the form below to get in touch with me.</p>
-        </div> 
+          <p className="py-6 ml-5 text-lg">
+            Submit the form below to get in touch with me.
+          </p>
+        </div>
 
         <Main />
         <div className="flex justify-center items-center mt-5">
@@ -45,7 +49,9 @@ const Contact = () => {
             <button className="text-white text-lg bg-gradient-to-b from-cyan-500 to-purple-500  px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
+            <Inspired />
           </form>
+          
         </div>
       </div>
     </div>
