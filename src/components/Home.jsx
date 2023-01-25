@@ -34,20 +34,20 @@ const Home = () => {
             Worked through 1200+ hours of Bootcamp structure.
           </p>
           <div>
-            <button className="group text-white  w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-cyan-500 cursor-pointer" >
-              <a
-                href="/Raveena-Kale-Resume.pdf"
-                download={true}
-                target="_blank"
-                rel="noreferrer"
-                onClick={downloadResume}
-              >
+            <a
+              href="/Raveena-Kale-Resume.pdf"
+              download={true}
+              target="_blank"
+              rel="noreferrer"
+              onClick={downloadResume}
+            >
+              <button className="group text-white  w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-cyan-500 cursor-pointer">
                 Resume
-              </a>
-              <span className="group-hover:rotate-90 duration-300">
-                {/* <MdOutlineKeyboardArrowRight size={25} className="ml-1" /> */}
-              </span>
-            </button>
+                <span className="group-hover:rotate-90 duration-300">
+                  {/* <MdOutlineKeyboardArrowRight size={25} className="ml-1" /> */}
+                </span>
+              </button>
+            </a>
           </div>
         </div>
 
