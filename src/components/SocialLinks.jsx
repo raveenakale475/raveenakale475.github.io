@@ -56,12 +56,6 @@ const SocialLinks = () => {
     },
   ];
 
-  const downloadResume = async () => {
-    window.open(
-      "https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing"
-    );
-  };
-
   return (
     <div className="flex flex-col top-[35%] left-0 fixed">
       <ul>
@@ -80,7 +74,6 @@ const SocialLinks = () => {
               download={download}
               target="_blank"
               rel="noreferrer"
-              onClick={downloadResume}
             >
               {child}
             </a>
