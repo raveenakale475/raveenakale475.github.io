@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4630b21.css",
-    "main.js": "/static/js/main.65b8bc6f.js",
+    "main.css": "/static/css/main.27f74cdf.css",
+    "main.js": "/static/js/main.d82aa7b4.js",
     "static/media/Myntra.png": "/static/media/Myntra.ff6e28b4379d7b6425ba.png",
     "static/media/hotstar.png": "/static/media/hotstar.7d52de7e3539ecdcee0d.png",
     "static/media/RelianceDigital.png": "/static/media/RelianceDigital.457eaf7ba226f30703e5.png",
@@ -18,14 +18,15 @@
     "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/thunderclient.png": "/static/media/thunderclient.65c722baa6e0003a33a9.png",
     "static/media/chakraui.png": "/static/media/chakraui.36db97903e01c1040ed5.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.c4630b21.css.map": "/static/css/main.c4630b21.css.map",
-    "main.65b8bc6f.js.map": "/static/js/main.65b8bc6f.js.map"
+    "main.27f74cdf.css.map": "/static/css/main.27f74cdf.css.map",
+    "main.d82aa7b4.js.map": "/static/js/main.d82aa7b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4630b21.css",
-    "static/js/main.65b8bc6f.js"
+    "static/css/main.27f74cdf.css",
+    "static/js/main.d82aa7b4.js"
   ]
 }
