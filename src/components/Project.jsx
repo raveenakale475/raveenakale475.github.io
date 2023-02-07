@@ -24,7 +24,7 @@ const Project = () => {
       id: 1,
       src: RelianceDigital,
       github: "https://github.com/RajParmar03/Reliance_digital_clone",
-      netlify: "https://delightful-twilight-10e5bd.netlify.app/",
+      netlify: "https://russdigital.netlify.app/",
       websiteName: "RelianceDigital Clone",
       des: "RelianceDigital is an E-commerce website to buy Electronics Online.",
       TechStack: [reactImage, Redux, Chakraui, css],
