@@ -10,11 +10,11 @@ const About = () => {
           </p>
         </div>
         <p className="tracking-wide text-lg "><br/>
-        * Hello! My name is Raveena Kale and I enjoy creating things that live on the internet.<br /><br/>
-        * I'm a passionate Developer, with strong administrative and communication skills, good attention to detail and the ability to write efficient code using MERN Stack.
+        * Hello! My name is Raveena Kale, I enjoy building things that are live on the internet.<br /><br/>
+        * I'm a passionate Developer, with strong administrative and communication skills, good attention to detail, and the ability to write efficient code using MERN Stack.
           <br /><br/>
-          * My interest in web development started back last year when I was trying to edit things on the web, that taught me a lot about HTML& CSS.<br/><br/>
-          * Fast Forwarding to today, I built a number of web applications and major projects. Learned a great deal about teamwork, leadership, and communication. After months of rigorous training, here l am looking for an opportunity as a full stack web developer.<br/>
+          * My interest in web development started last year when I was trying to build things on the web, which taught me a lot about HTML and CSS.<br/><br/>
+          * Fast Forwarding to today, I built many web applications and projects. I learned a great deal about teamwork, leadership, and communication. After months of rigorous training, I am looking for an opportunity as a full-stack web developer.<br/>
         </p>
       </div>
     </div>

@@ -150,7 +150,7 @@ const Skills = () => {
       <div className="max-w-screen-lg  mx-auto flex flex-col justify-content w-full">
         <div className="pb-5">
           <p className="text-4xl font-bold inline border-b-4 border-[#937DC2] ml-5 ">
-            Skills
+            Skills & Tools
           </p>{" "}
           <p className="py-6 ml-5 text-lg">These are the technologies I've worked with</p>
         </div>
