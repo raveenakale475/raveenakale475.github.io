@@ -53,7 +53,7 @@ const Home = () => {
 
         <div className="mb-10 sm:mb-0 w-4/6">
           <img
-            src="https://i.ibb.co/YjPkG6h/Whats-App-Image-2022-12-03-at-6-36-13-PM.jpg"
+            src="https://i.ibb.co/5464QJv/Whats-App-Image-2023-02-24-at-11-09-29-PM.jpg"
             alt="my-profile"
             className="rounded-2xl mx-auto "
           />
