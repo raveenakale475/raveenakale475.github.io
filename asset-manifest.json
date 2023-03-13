@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.27f74cdf.css",
-    "main.js": "/static/js/main.c0fd3543.js",
+    "main.js": "/static/js/main.fcd87c6f.js",
     "static/media/Myntra.png": "/static/media/Myntra.ff6e28b4379d7b6425ba.png",
     "static/media/hotstar.png": "/static/media/hotstar.7d52de7e3539ecdcee0d.png",
     "static/media/RelianceDigital.png": "/static/media/RelianceDigital.457eaf7ba226f30703e5.png",
@@ -25,10 +25,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.27f74cdf.css.map": "/static/css/main.27f74cdf.css.map",
-    "main.c0fd3543.js.map": "/static/js/main.c0fd3543.js.map"
+    "main.fcd87c6f.js.map": "/static/js/main.fcd87c6f.js.map"
   },
   "entrypoints": [
     "static/css/main.27f74cdf.css",
-    "static/js/main.c0fd3543.js"
+    "static/js/main.fcd87c6f.js"
   ]
 }
