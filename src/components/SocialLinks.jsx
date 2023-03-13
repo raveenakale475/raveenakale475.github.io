@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Phone <FiPhoneCall size={30} />
         </>
       ),
-      href: `tel:${9788654245}`,
+      href: `tel:${9152374140}`,
     },
     {
       id: 5,

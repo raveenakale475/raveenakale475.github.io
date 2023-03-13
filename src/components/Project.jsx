@@ -44,7 +44,7 @@ const Project = () => {
       id: 3,
       src: Lyst,
       github: "https://github.com/raveenakale475/-few-quilt-3078",
-      netlify: "https://lyst-rrk.netlify.app/",
+      netlify: "https://lyst-tau.vercel.app/",
       websiteName: "Lyst Clone",
       des: "Lyst is an E-commerce website for online shopping.",
       TechStack: [reactImage, Chakraui, StyledComponent],
