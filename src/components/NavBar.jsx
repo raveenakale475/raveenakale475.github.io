@@ -35,12 +35,22 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center w-full  h-20 text-black bg-[#937DC2] fixed px-2">
-      <div>
-        <h1 className="text-3xl sm:ml-2 cursor-pointer">
-          <a href="https://github.com/raveenakale475" target={"_blank"}>
-            Raveena <span className="text-white">Kale</span>
-          </a>
+    <div className="flex justify-between items-center w-full  h-20 text-black bg-[#F9F5E7] fixed px-2">
+      <div className="flex gap-2">
+        <h1 className="text-3xl sm:ml-2 cursor-pointer font-semibold">
+          <span className="text-[#937DC2]">R</span>
+          <span className="text-black">A</span>
+          <span className="text-black">V</span>
+          <span className="text-black">E</span>
+          <span className="text-black">E</span>
+          <span className="text-black">N</span>
+          <span className="text-[#937DC2]">A</span>
+        </h1>
+        <h1 className="text-3xl sm:ml-2 cursor-pointer font-semibold">
+          <span className="text-[#937DC2]">K</span>
+          <span className="text-black">A</span>
+          <span className="text-black">L</span>
+          <span className="text-[#937DC2]">E</span>
         </h1>
       </div>
 
@@ -48,14 +58,21 @@ const Navbar = () => {
         {Links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize text-black hover:scale-105 duration-200 font-semibold text-xl"
           >
-            <Link to={link} smooth duration={600}>
+            <Link
+              to={link}
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
               {link}
             </Link>
           </li>
         ))}
-        <li className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200">
+        <li className="px-4 cursor-pointer capitalize  text-black hover:scale-105 duration-200 font-semibold text-xl">
           <a
             href="/Raveena-Kale-Resume.pdf"
             download={true}
@@ -96,6 +113,7 @@ const Navbar = () => {
             <a
               href="https://drive.google.com/file/d/1eIv018vU3m9dRGYq7t05cliYzPehIL8I/view?usp=sharing"
               target={"_blank"}
+              rel="noreferrer"
             >
               Resume
             </a>
