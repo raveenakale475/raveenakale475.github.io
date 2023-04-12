@@ -54,7 +54,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mb-10 sm:mb-0 w-4/6">
+        <div className="mb-10 sm:mb-0 w-3/5">
           <img
             src="https://i.ibb.co/5464QJv/Whats-App-Image-2023-02-24-at-11-09-29-PM.jpg"
             alt="my-profile"
