@@ -39,7 +39,7 @@ function App() {
           }}
         >
           Designed and Build With {<BsHeartFill color="#937DC2" size={30} />} By
-          Raveena Kale 2023 All Rights Reserved.
+          Raveena Kale 2023. All Rights Reserved.
         </h1>
         <div
           className="mr-5 cursor-pointer"
